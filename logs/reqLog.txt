@@ -1,0 +1,195 @@
+20240722	17:48:33	11dac809-d6d5-4de7-a6aa-d868ec0c8917	/	GET
+20240722	17:49:54	aec9edda-e2d5-4c17-b6d1-88e3d52a9ede	/index	GET
+20240722	18:21:20	484e7323-accf-4d08-a38f-2b64b8ce8f38	/index	GET
+20240722	18:21:23	9355742b-c93b-4f04-8040-d4fd8be0b0a5	/index	GET
+20240722	18:22:35	b35f25a8-2035-41b0-9af0-fad77df42d46	/404	GET
+20240722	18:24:37	0f1e2e5c-6328-4876-8c9a-7d6e8e9ddc3e	/404	GET
+20240722	18:24:37	7fa4c167-ec18-4079-8c6e-9972f8814c9b	/css/style.css	GET
+20240722	18:24:38	cf4b5914-693a-4d8a-b8be-55aa3bc7a3a5	/favicon.ico	GET
+20240722	18:24:49	5bcf518b-aff6-449e-a15b-804c67c43d9a	/404	GET
+20240722	18:24:49	a7468dfb-5f0f-4571-9369-2490810da59d	/css/style.css	GET
+20240722	18:25:04	035f0968-b4c0-4122-af44-ab36d81408df	/index	GET
+20240722	18:25:04	4b94e4cb-beae-4f51-999a-5d48e202e5ff	/css/style.css	GET
+20240722	18:25:55	abf95a50-1966-4c80-872e-4fcbe7a9e4ff	/index	GET
+20240722	18:25:55	112645a7-dd34-449a-8c48-ddc093eeb054	/css/style.css	GET
+20240722	18:26:01	bc075902-3e4e-486c-a4ec-f544fb48c25c	/404	GET
+20240722	18:26:01	f1ca8cf7-54ed-4897-8911-8f0ae364eef3	/css/style.css	GET
+20240722	18:26:11	4a4f923c-df4a-4b93-9d31-115238e969ff	/home	GET
+20240722	18:26:11	bb47ae81-51d5-4bf3-9e4b-ea606672cad7	/css/style.css	GET
+20240722	18:27:29	3feca2ab-4fcf-46ba-98af-86e5ef865caa	/data/data.json	GET
+20240722	18:27:29	933f5c6f-2fe3-4c9a-9624-96e679360943	/css/style.css	GET
+20240722	18:29:06	d8208869-09dd-4956-801a-31b5e9478b52	/data/data.json	GET
+20240722	18:30:56	7efdbdfe-2d01-4fa8-8623-75b9fe349679	/data/data.json	GET
+20240722	19:06:09	8d499f8b-2722-4db1-bf25-9d8c7d797669	GET	undefined	/data/data.json
+20240722	19:06:09	8d9f691e-8254-4876-8da5-3aab8ed8a6be	GET	undefined	/css/style.css
+20240722	19:06:30	be93cb50-a9bb-4383-b483-4c1004bc86e4	GET	undefined	/index
+20240722	19:06:30	643850a9-c841-4625-bb01-639ed88a00d5	GET	undefined	/css/style.css
+20240722	19:09:23	b653243c-0f54-4a1a-b6c6-4410331cfe06	GET	undefined	/home
+20240722	19:09:23	e3846f07-603c-423f-b534-4e365558cbfa	GET	undefined	/css/style.css
+20240722	19:30:15	a32defa3-5a9a-4bff-a184-99d7830fb456	GET	undefined	/user
+20240722	19:30:40	69df5ec2-1d5c-4752-86cb-ec544ea5c1fc	POST	undefined	/user
+20240722	19:31:21	183e6335-fcbd-466e-970e-ac1fe3662fb6	PUT	undefined	/user
+20240722	19:32:42	b0da909d-c728-49f2-9b44-29c19e81badc	PUT	undefined	/user
+20240722	19:33:12	099842a5-c435-47d2-b738-120c2026a2f0	DELETE	undefined	/user
+20240722	19:33:50	bd3461e4-50c0-4ef8-ac5d-1ea0c98bc628	GET	undefined	/user/1
+20240722	20:11:20	5023c8d2-ab43-419c-beeb-d7c66603ff99	GET	undefined	/user
+20240722	20:11:54	5967ca2a-f96f-4bbb-9cde-3ea02f4d3d10	POST	undefined	/user
+20240722	20:14:03	a818c237-7bd8-45f1-9dce-8382978df2de	POST	undefined	/user
+20240722	20:16:30	ec7f790b-d861-4295-a09b-74c740f638f8	GET	undefined	/home
+20240722	20:16:30	ea0b0ec0-5a5b-46a9-a980-358074c86ce9	GET	undefined	/css/style.css
+20240722	20:27:34	1e94895b-1f77-4908-8ee5-2cd239fe7987	GET	undefined	/user
+20240722	20:28:59	65d5e130-61fd-423b-9052-e50ec4b0d229	PUT	undefined	/user
+20240722	20:30:15	3b142d31-ded3-491c-aefd-d704b6663705	DELETE	undefined	/user
+20240722	20:30:45	9c8b3c44-e065-4920-990c-df4900f4c272	DELETE	undefined	/user/1
+20240722	20:30:48	70704e17-86a7-4a05-8979-25dada23b29a	DELETE	undefined	/user/1
+20240722	20:30:50	9b6b47ca-b95b-4295-b67b-b636dac77af0	DELETE	undefined	/user/1
+20240722	20:30:59	0dd265ab-1529-4bd4-8dbf-20aebb47df95	GET	undefined	/user1
+20240722	20:31:03	81e53b4e-1df4-46c4-8c8a-29c014a36a4c	GET	undefined	/user/1
+20240723	13:09:49	fe305c70-b354-4849-bfd4-92772f159f76	GET	undefined	/home
+20240723	13:09:49	24f43ee1-cde3-4582-b08f-cd97cce49696	GET	undefined	/css/style.css
+20240723	13:09:50	79a31dce-1f99-4693-9a0d-e7160350bd1a	GET	undefined	/favicon.ico
+20240723	13:09:58	f08abb1e-6ae3-449c-a8fe-70c1dda78459	GET	undefined	/index
+20240723	13:09:58	ed748aba-abae-4ea1-8c14-d8e361139f5b	GET	undefined	/css/style.css
+20240723	17:05:23	815aa544-44df-4244-ae17-57ec1952d9c2	GET	undefined	/register
+20240723	17:06:10	8f812f41-ddec-4e81-9623-8d614129a4e2	GET	undefined	/register
+20240723	17:07:47	3d9d0eef-2734-4abd-8855-1a4f34f91c48	GET	undefined	/register
+20240723	17:07:49	e2bc32e9-a3b1-420d-ad1f-5ffe2bff5b8c	GET	undefined	/register
+20240723	17:08:28	2fe4ba0c-900d-4bbe-a4e5-773991cdcbae	POST	undefined	/register
+20240723	17:09:33	989c2d4c-25f1-43a4-9ba4-ed4f5c5fa3c0	POST	undefined	/register
+20240723	17:16:37	6229c8cd-266b-40cb-b115-b92aac7e2fc9	POST	undefined	/auth
+20240723	17:18:13	0bee0ef0-dde7-4ff7-af8c-91c426718843	GET	undefined	/auth
+20240723	17:18:31	baef59ca-a83d-4b3f-9aec-a3f565013c8a	POST	undefined	/register
+20240723	17:19:00	6c400c44-2fcb-431a-8d65-1af8dbd4af5c	POST	undefined	/register
+20240723	17:20:21	57c0fae6-cde5-4294-a6f1-21e52c7dbd12	POST	undefined	/auth
+20240723	17:20:26	8327bb7b-10df-4688-99b7-09beea8b8d53	POST	undefined	/auth
+20240723	17:20:28	8243caa3-ca05-42b1-aac9-3e3df28e4740	POST	undefined	/auth
+20240723	17:20:33	1555fef8-8ec8-4bff-81d7-2c0c2316a21e	GET	undefined	/css/style.css
+20240723	17:20:38	d819a8f2-bd44-43be-8c0c-a5a52900d209	GET	undefined	/css/style.css
+20240723	17:23:58	03f99a94-07bd-4fea-83c4-421a36614252	POST	undefined	/auth
+20240723	17:24:08	edb8e4fe-6d4a-4560-b6e8-66533d127899	POST	undefined	/auth
+20240723	20:49:44	2bed1c0a-b859-4ca0-a329-8adb5835722b	POST	undefined	/auth
+20240723	20:51:17	f98e670a-bc1a-4e3d-9896-992dd431960a	POST	undefined	/auth
+20240723	20:51:44	79099aa7-6cdf-4f45-b821-35981462e9ef	GET	undefined	/logout
+20240723	20:51:51	5ca178fd-ac0e-4c7b-a867-9589934831bb	GET	undefined	/logout
+20240723	20:51:56	d4f5d133-b1c6-4d7c-8873-3a5e9fd16577	GET	undefined	/logout
+20240723	20:51:57	151f8803-affb-4206-846d-9dc67691afcf	GET	undefined	/logout
+20240723	20:52:21	1adf3334-6324-44b1-8747-55e2b780d916	GET	undefined	/refresh
+20240723	20:53:36	32e9894c-6302-48d6-afb3-161244e9cc74	POST	undefined	/auth
+20240726	17:45:19	cbd3c461-02a9-4418-b69c-1fd0a24b3bca	POST	undefined	/register
+20240726	17:49:55	e62ce8f9-c372-4eb8-8e42-7687f9b75ce8	POST	undefined	/register
+20240726	17:50:45	a69039f8-8634-478f-8b55-fff571967e76	POST	undefined	/register
+20240726	18:02:17	0dabca1d-9a20-4fe2-ae8f-dfd2dc1905b5	POST	undefined	/register
+20240726	18:02:30	2987edef-e731-4d54-9369-3c272f4db5e7	POST	undefined	/register
+20240726	18:03:08	3a60d2a2-8bcc-45a7-b527-6a91ad328360	POST	undefined	/auth
+20240730	17:25:11	fd6953f1-0ae8-43ff-8071-615bbae7a21a	POST	undefined	/register
+20240730	17:34:56	978a89ab-2476-4ba7-92db-f12fe1b1bc82	GET	undefined	/client
+20240730	17:35:08	0d567ae6-f62e-4a85-b79b-510692dd2b83	GET	undefined	/client
+20240730	17:36:52	4a3c13ce-74c3-447d-8161-afe5b04dd6d0	POST	undefined	/client
+20240730	17:48:15	27697b6e-5e28-44d3-b4c4-6d68ecdd6ede	GET	undefined	/demandeur
+20240730	17:48:52	ec483740-61a0-421d-b430-06f0f63fda4e	POST	undefined	/demandeur
+20240730	18:10:00	67b1880d-199a-49e1-b5ba-c9a10d09eea0	DELETE	undefined	/demandeur
+20240730	18:28:56	1aea2113-dc45-4800-b512-d5bca2f44d31	DELETE	undefined	/demandeur
+20240730	18:28:58	199198a1-4804-4848-bd3e-f71b8b2079e3	DELETE	undefined	/demandeur
+20240730	18:30:00	68eb6bdf-e7d1-4d36-9861-4fbf58909f76	DELETE	undefined	/demandeur
+20240730	18:30:02	f75c4214-848f-44d3-a809-a255a67b926f	DELETE	undefined	/demandeur
+20240730	18:30:07	12c81743-c45a-48fd-9af5-7fd1b84e80a5	POST	undefined	/demandeur
+20240730	18:30:27	78cf2c83-aa7c-46f5-97ec-00d13fa72d83	PUT	undefined	/demandeur
+20240730	18:32:51	8b147cf3-fea6-4c44-8095-fd7031f85558	POST	undefined	/demandeur
+20240730	18:35:44	3dac639a-687f-43a8-9b12-95bb8aafbd5d	POST	undefined	/auth
+20240730	18:36:06	b8ac9b91-c6b9-4d7b-8f15-b9c250645304	POST	undefined	/demandeur
+20240730	18:37:39	edd0adc1-f480-46ec-bc1b-483ab6870441	POST	undefined	/demandeur
+20240730	18:37:40	b1398f26-97fd-4769-b030-a6d21245761a	POST	undefined	/demandeur
+20240730	18:37:49	7cec73a4-3998-4e0b-838d-e4e9af38eff1	POST	undefined	/demandeur
+20240730	18:40:13	19d614e4-b36c-4915-ad93-f2a0f2c6242e	POST	undefined	/auth
+20240730	18:40:23	3a8295d9-6f10-4f4f-b39d-af88b6aeec76	POST	undefined	/auth
+20240730	18:40:39	a716521c-30ca-434d-b107-c130798b602e	POST	undefined	/demandeur
+20240730	18:43:32	e2ef2d05-f3c2-4e2e-b3cb-c10421ad914d	POST	undefined	/auth
+20240730	18:43:52	6c2f7e92-b1fd-4af6-9f31-25d15d8638ea	POST	undefined	/demandeur
+20240730	18:43:53	d65e49fe-2290-4927-ae99-782245909e27	POST	undefined	/demandeur
+20240730	18:44:02	e1881f41-08a6-4219-bfb0-847ca73e7c7e	POST	undefined	/demandeur
+20240730	18:44:23	3c8f1239-d873-4b77-8399-d6c9974f5b4a	POST	undefined	/demandeur
+20240730	18:44:24	b77344dd-8d67-4cbd-83b8-5796115ed9aa	POST	undefined	/demandeur
+20240730	18:44:32	70cb4315-6ed5-4efe-a157-240b62da1696	POST	undefined	/auth
+20240730	18:44:49	beb030d1-b9f1-4eb5-ae7b-8a7bab4507b3	POST	undefined	/demandeur
+20240730	18:46:25	0c51faec-a5eb-4abf-a06c-3af403428693	POST	undefined	/auth
+20240730	18:46:26	8e5f494b-8ce6-428f-b932-54183c246ec1	POST	undefined	/auth
+20240730	18:46:45	47da7220-0851-4876-97d5-64370bc2d5a1	POST	undefined	/auth
+20240730	18:47:01	651818bc-1077-4c03-b48d-1e40180ea9d5	POST	undefined	/demandeur
+20240730	18:47:02	741d9273-ba9b-4ffe-929d-666738c0c9cf	POST	undefined	/demandeur
+20240730	18:47:03	d0b01464-a9b9-453b-b882-b82d23f4f920	POST	undefined	/demandeur
+20240730	18:55:26	a8e8842c-1e7b-467f-a391-085dad78705a	POST	undefined	/demandeur
+20240730	18:55:27	0e23e403-540c-4e68-95a2-a297033dd7d5	POST	undefined	/demandeur
+20240730	18:56:23	cb4126a5-ce23-4027-9c8a-58ddb8621fd8	POST	undefined	/demandeur
+20240730	18:56:25	9ce61c20-27b8-44a5-98d4-d9ccf27842cc	POST	undefined	/demandeur
+20240730	18:56:25	8256d941-dc96-42be-a49e-c4ff2d5feae4	POST	undefined	/demandeur
+20240730	19:06:08	6258fdfe-0601-4da9-97a6-454dd1f5f2c3	POST	undefined	/auth
+20240730	19:06:22	5c0e80b6-a31b-4fa6-b1b2-06808b7a328b	POST	undefined	/demandeur
+20240730	19:09:51	1e413b83-77c1-4823-8856-6542a80f48c6	POST	undefined	/client
+20240730	19:13:15	6f56e6c7-c777-40a0-8347-02cc264f6711	POST	undefined	/client
+20240730	19:13:15	36572893-80c4-4569-9e4e-bab4d5738ccd	GET	undefined	/client
+20240730	19:13:51	0843951e-7278-4205-b6d3-22654581d841	POST	undefined	/client
+20240730	19:14:19	b03053e6-9656-41e8-989e-64724bfba7cf	POST	undefined	/auth
+20240730	19:14:33	029ce739-149a-418f-881a-d3de5e8149be	POST	undefined	/demandeur
+20240730	19:14:34	0c9330e4-357f-45d7-8a64-b05138942959	POST	undefined	/demandeur
+20240730	19:14:35	a189ddec-c3f2-4f9d-8e51-c8dea952a5cc	POST	undefined	/demandeur
+20240730	19:14:50	225a7df6-f64b-4896-a7c0-d95dbe4c8faa	POST	undefined	/demandeur
+20240730	19:14:51	58ab80a6-33fe-4a9a-8e1e-6f2f975d9425	POST	undefined	/demandeur
+20240730	19:15:13	b46c16f1-bf5a-43dc-be33-09540c684911	POST	undefined	/demandeur
+20240730	19:15:14	3c41f379-252f-486b-bdb4-68874f1a1e5c	POST	undefined	/demandeur
+20240730	19:19:19	2df5ae7c-ee62-4500-a16c-8a715724c423	POST	undefined	/demandeur
+20240730	19:19:28	77d4331d-8436-4560-b620-e89481b9b965	POST	undefined	/auth
+20240730	19:19:45	29e62a80-b93c-420c-ac83-b7e937b91685	POST	undefined	/demandeur
+20240730	19:26:42	1a29327f-2ace-4770-a013-af7076ec4d58	POST	undefined	/demandeur
+20240730	19:26:53	3efac14e-44d8-4192-8300-d7ab87f7af7f	POST	undefined	/client
+20240730	19:27:26	825a5f8f-d791-4a37-91f2-c97ff0584820	POST	undefined	/auth
+20240730	19:27:42	f7384d2c-dabb-4a6d-b15b-dfdcdc4ad0b7	POST	undefined	/demandeur
+20240730	19:30:30	88348cc7-eb60-4289-9387-8f0b34596c85	POST	undefined	/api/demandeur
+20240730	19:31:32	e083c56d-7293-41bd-ab00-78de926c70b0	POST	undefined	/api/demandeur
+20240730	19:59:39	eaee9936-b90e-45b1-8458-277332114ae3	POST	undefined	/auth
+20240730	20:02:11	67a97f04-4981-4272-a411-66384ad18b4d	GET	undefined	/ticket
+20240730	20:02:27	1b2bb452-54d0-415d-8bf2-968d5be003f2	POST	undefined	/auth
+20240730	20:02:48	6b25d29d-0624-425e-888b-956fbe58876b	GET	undefined	/ticket
+20240730	20:03:00	3ee27174-93fe-42ac-a1f5-55881e0337db	GET	undefined	/ticket
+20240730	20:06:48	6301fbce-d4a6-4c5c-87be-5d464e6c92e5	POST	undefined	/ticket
+20240730	20:06:51	bd338ef3-1930-4660-975c-243c0feb22b4	POST	undefined	/ticket
+20240730	20:07:16	1989310e-772e-41cf-8ee5-2c8aec2e4ce7	POST	undefined	/auth
+20240730	20:07:30	56657ea2-030a-41ed-afbf-cf22dfd95a2a	POST	undefined	/ticket
+20240730	20:07:31	4f2cb416-6fd9-4b3a-a644-8985caafda07	POST	undefined	/ticket
+20240730	20:07:46	2dc879cf-1dd3-4702-a1ef-1dc43c3fcf85	POST	undefined	/ticket
+20240730	20:07:58	986aaf8d-2575-4f9c-8b10-337eec4828db	POST	undefined	/auth
+20240730	20:08:34	c3a0928a-d3bc-4b93-8edb-fb92e4bef21f	POST	undefined	/ticket
+20240730	20:08:37	11434a28-d166-4792-89ad-c1cf80f87010	GET	undefined	/css/style.css
+20240730	21:45:29	5267fbab-d37c-4339-b7c3-5259a05743d8	POST	undefined	/ticket
+20240730	21:45:39	43146811-db1f-4c9d-a6d2-24d45eca0e2f	POST	undefined	/auth
+20240730	21:45:52	a28030b6-ebd8-4f81-ba5a-2595b1b23048	POST	undefined	/ticket
+20240730	21:46:02	9f13a555-21a9-412b-acd8-8fb058bb8978	POST	undefined	/api/ticket
+20240730	21:49:16	1d00a742-0532-4519-b5c4-cea7aa20d873	POST	undefined	/api/ticket
+20240730	21:49:18	8f8490a6-6dfc-4393-9f1b-66d01cb151ab	POST	undefined	/api/ticket
+20240730	21:58:52	d1019d2e-e00c-4c64-86a2-8ab95510a580	POST	undefined	/api/ticket
+20240730	21:58:54	aca5e3df-fc74-4650-b473-94f3fe47ce38	POST	undefined	/api/ticket
+20240730	22:01:34	0e3391d9-48d1-4310-bd7f-eb1dc87cd5f9	POST	undefined	/api/ticket
+20240730	22:01:35	26110f8f-377d-45f5-ba74-ab876eee6ae3	POST	undefined	/api/ticket
+20240730	22:08:54	919cf306-5e0d-4d25-a541-3f6e7490719f	POST	undefined	/api/ticket
+20240730	22:15:27	103b6722-0466-4ad6-bd64-2691d7bd2038	POST	undefined	/api/ticket
+20240730	22:17:17	a31b4c47-d14e-4cf2-9cfd-c6722c718636	POST	undefined	/auth
+20240730	22:17:44	573e9753-5ed8-4227-97a9-0ebf3d07ab19	POST	undefined	/api/ticket
+20240730	22:20:17	5d2fe175-5a6d-4235-9091-dc91938c4d70	POST	undefined	/api/ticket
+20240730	22:20:28	a46c9564-009e-434b-8cc3-7e9e5048b411	POST	undefined	/auth
+20240730	22:20:41	de972472-ddf9-456f-a627-3b44fdf63e93	POST	undefined	/api/ticket
+20240730	22:33:11	327bf311-c0dc-479d-ac9d-9618080ec7aa	POST	undefined	/api/ticket
+20240730	22:33:19	dce04852-980d-4ab2-a4f3-3ef11b400776	POST	undefined	/api/ticket
+20240730	22:33:21	46df34c2-869a-4d66-9491-2766c9b56b6e	POST	undefined	/api/ticket
+20240730	22:35:06	9634b06f-c880-4052-94e3-adbc8708c688	POST	undefined	/api/ticket
+20240730	22:35:21	6f3ae9eb-440a-430b-9ff2-b47837ac8683	POST	undefined	/auth
+20240730	22:35:36	3677ea4a-afe9-4aba-b8af-83a0691bc4ee	POST	undefined	/api/ticket
+20240730	22:36:53	3993a967-0ba9-41d4-bdcd-d2a7059384e1	POST	undefined	/ticket
+20240730	22:37:03	d1e404a3-a044-4320-9044-0527a00b7c3a	POST	undefined	/auth
+20240730	22:37:16	d73af715-eaa0-4f70-8389-86797c3aa6ce	POST	undefined	/ticket
+20240730	22:37:26	10d8cf52-ea73-4834-95de-b17ef3010704	POST	undefined	/api/ticket
+20240730	22:46:24	c755b5d7-0e51-4447-b2e3-39dfac36398f	POST	undefined	/api/ticket
+20240730	22:46:30	32cc5f51-2f8a-463d-8bdf-e89ff20f53cf	POST	undefined	/auth
+20240730	22:46:42	57a6b3be-5b4f-4b8b-8242-80d8980ec855	POST	undefined	/api/ticket
+20240730	22:47:05	7bd8d827-5643-493e-a88a-2e6324ef63d7	POST	undefined	/api/ticket
+20240730	22:49:34	aacc1bd9-5df5-414f-a4d3-6bac78416208	POST	undefined	/api/ticket
+20240730	22:49:46	4e6c06c3-f462-46d0-b767-705255a4daf0	POST	undefined	/auth
+20240730	22:49:59	83ef50de-ed66-4751-87c1-cfe60bcb48e3	POST	undefined	/api/ticket

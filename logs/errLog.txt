@@ -1,0 +1,6 @@
+20240722	17:48:33	6fbaf742-4ced-49bf-b89a-7d89f779aec9	Error: ENOENT: no such file or directory, open 'C:\Users\dell\ticketingjs\views\404.html'
+20240722	17:49:54	43031adb-cc06-4942-a9ac-8959eca513bb	Error: ENOENT: no such file or directory, open 'C:\Users\dell\ticketingjs\views\404.html'
+20240722	18:21:20	ddffc41f-c9f8-4a45-8bdc-f88e9ce838ce	Error: ENOENT: no such file or directory, open 'C:\Users\dell\ticketingjs\views\404.html'
+20240722	18:21:23	4e843b91-86cb-4401-a4b9-b787a5b2e463	Error: ENOENT: no such file or directory, open 'C:\Users\dell\ticketingjs\views\404.html'
+20240722	18:22:35	d0c20108-9e56-49e9-a0de-be689eb088ad	Error: ENOENT: no such file or directory, open 'C:\Users\dell\ticketingjs\views\404.html'
+20240726	17:45:19	5ba5acdc-2fa7-4d94-956e-f091dcaaf496	ReferenceError: whitelist is not defined
