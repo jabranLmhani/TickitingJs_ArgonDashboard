@@ -12,4 +12,13 @@ router.route('/:id')
     .delete(ticketController.deleteTicket)
     .get(ticketController.getTicket);
 
+router.route('/assign')
+    .post(ticketController.assignTicketToUser);   
+    
+router.route('/:id/start')
+    .post(ticketController.startWorkOnTicket);
+
+router.route('/:id/complete')
+    .post(ticketController.completeTicketWork);
+
 module.exports = router;

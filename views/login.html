@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet">
+    <title>Login Form</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #682F53;
+            font-family: 'Poppins', sans-serif;
+        }
+        form {
+            border-radius: 20px;
+            margin-top: 150px !important;
+            margin-left: 150px;
+            width: 500px;
+            background-color: white !important;
+            padding: 50px;
+        }
+        .btn-primary {
+            width: 100%;
+            border: none;
+            border-radius: 50px;
+            background: #DB7527;
+            transition: background-color 0.3s ease;
+        }
+        .btn-primary:hover {
+            background: #B9503D;
+        }
+        .form-control {
+            color: rgba(0,0,0,.87);
+            border-bottom-color: rgba(0,0,0,.42);
+            box-shadow: none !important;
+            border: none;
+            border-bottom: 1px solid;
+            border-radius: 4px 4px 0 0;
+        }
+        h4 {
+            font-size: 2rem !important;
+            font-weight: 700;
+        }
+        .form-label {
+            font-weight: 800 !important;
+        }
+        @media only screen and (max-width: 600px) {
+            form {
+                width: 100% !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form id="loginForm">
+                    <h4 class="text-center">Login</h4>
+                    <div class="mb-3 mt-5">
+                        <label for="loginUsername" class="form-label">Username</label>
+                        <input type="text" class="form-control" id="loginUsername" name="username" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="loginPassword" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="loginPassword" name="password" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-5">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="message" class="text-center mt-4"></div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        async function handleLogin(event) {
+            event.preventDefault();
+
+            const username = document.getElementById('loginUsername').value;
+            const password = document.getElementById('loginPassword').value;
+            const messageElement = document.getElementById('message');
+
+            try {
+                const response = await fetch('/auth', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ user: username, pwd: password })
+                });
+
+                if (response.ok) {
+                    const result = await response.json();
+                    messageElement.textContent = 'Login successful!';
+                    messageElement.style.color = 'green';
+                } else {
+                    messageElement.textContent = 'Login failed. Please check your username and password.';
+                    messageElement.style.color = 'red';
+                }
+            } catch (error) {
+                messageElement.textContent = 'An error occurred. Please try again.';
+                messageElement.style.color = 'red';
+            }
+        }
+
+        document.getElementById('loginForm').addEventListener('submit', handleLogin);
+    </script>
+</body>
+</html>

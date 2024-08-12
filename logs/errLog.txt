@@ -4,3 +4,9 @@
 20240722	18:21:23	4e843b91-86cb-4401-a4b9-b787a5b2e463	Error: ENOENT: no such file or directory, open 'C:\Users\dell\ticketingjs\views\404.html'
 20240722	18:22:35	d0c20108-9e56-49e9-a0de-be689eb088ad	Error: ENOENT: no such file or directory, open 'C:\Users\dell\ticketingjs\views\404.html'
 20240726	17:45:19	5ba5acdc-2fa7-4d94-956e-f091dcaaf496	ReferenceError: whitelist is not defined
+20240811	22:32:30	b0409073-c13d-4f21-ab4b-e6ed1f9b75f7	Error: ENOENT: no such file or directory, stat 'C:\Users\dell\ticketingjs\views\login.html'
+20240811	22:34:27	e863d26e-efc7-4d31-bad8-bbf8bea5ea97	Error: Failed to lookup view "layouts/main" in views directory "C:\Users\dell\ticketingjs\views"
+20240811	22:34:28	2295b26a-e929-44ff-9b60-154741c607c4	Error: Failed to lookup view "layouts/main" in views directory "C:\Users\dell\ticketingjs\views"
+20240811	22:34:38	95041486-c283-4c6c-b3b5-ea5f87c4396c	Error: Failed to lookup view "layouts/main" in views directory "C:\Users\dell\ticketingjs\views"
+20240811	22:38:32	d6b50775-db2a-44e4-b9ab-a44a6050edce	Error: ENOENT: no such file or directory, stat 'C:\Users\dell\ticketingjs\views\index.html'
+20240812	11:45:35	e929109b-302f-43d1-ae13-71d51cb16421	Error: ENOENT: no such file or directory, stat 'C:\Users\dell\ticketingjs\views\login.html'
