@@ -10,3 +10,7 @@
 20240811	22:34:38	95041486-c283-4c6c-b3b5-ea5f87c4396c	Error: Failed to lookup view "layouts/main" in views directory "C:\Users\dell\ticketingjs\views"
 20240811	22:38:32	d6b50775-db2a-44e4-b9ab-a44a6050edce	Error: ENOENT: no such file or directory, stat 'C:\Users\dell\ticketingjs\views\index.html'
 20240812	11:45:35	e929109b-302f-43d1-ae13-71d51cb16421	Error: ENOENT: no such file or directory, stat 'C:\Users\dell\ticketingjs\views\login.html'
+20240818	20:11:24	4e7620c1-f3b4-42b8-86f3-090bb0dece73	Error: ENOENT: no such file or directory, stat 'C:\Users\msi\School Drive\OneDrive - Université Mohammed VI Polytechnique\Documents\MILITARY\For Chahbar\AliaeChah_proj\ticketingjs\public\billing.html'
+20240818	20:11:35	b3f215a6-a5df-46ea-ad4f-b580414bb078	Error: ENOENT: no such file or directory, stat 'C:\Users\msi\School Drive\OneDrive - Université Mohammed VI Polytechnique\Documents\MILITARY\For Chahbar\AliaeChah_proj\ticketingjs\public\virtual-reality.html'
+20240818	20:11:42	30053e61-8061-4dd9-993c-80deac702b11	Error: ENOENT: no such file or directory, stat 'C:\Users\msi\School Drive\OneDrive - Université Mohammed VI Polytechnique\Documents\MILITARY\For Chahbar\AliaeChah_proj\ticketingjs\public\virtual-reality.html'
+20240818	20:11:44	53b8b1a8-0e51-4c82-93e3-067ad36ec6a7	Error: ENOENT: no such file or directory, stat 'C:\Users\msi\School Drive\OneDrive - Université Mohammed VI Polytechnique\Documents\MILITARY\For Chahbar\AliaeChah_proj\ticketingjs\public\rtl.html'
