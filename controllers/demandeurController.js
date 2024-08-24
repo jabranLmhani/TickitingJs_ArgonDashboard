@@ -15,14 +15,17 @@ const createNewDemandeur = async (req, res) => {
 
 
 const getAllDemandeurs = async (req, res) => {
+    console.log('Received request for demandeurs');
     try {
-        const demandeurs = await Demandeur.find().populate('client');
+        const searchQuery = req.query.search || ''; // Retrieve search query
+        const demandeurs = await Demandeur.find({ nom: { $regex: searchQuery, $options: 'i' } }).populate('client');
         res.status(200).json(demandeurs);
     } catch (err) {
         console.error(err);
         res.status(500).json({ message: err.message });
     }
 };
+
 
 
 const getDemandeur = async (req, res) => {
@@ -64,10 +67,29 @@ const deleteDemandeur = async (req, res) => {
     }
 };
 
+const deleteSelectedDemandeurs = async (req, res) => {
+    const { ids } = req.body; // Expecting an array of IDs in the request body
+    if (!Array.isArray(ids) || ids.length === 0) {
+        return res.status(400).json({ message: 'No demandeur IDs provided or invalid format' });
+    }
+
+    try {
+        const result = await Demandeur.deleteMany({ _id: { $in: ids } });
+        if (result.deletedCount === 0) {
+            return res.status(404).json({ message: 'No demandeurs found to delete' });
+        }
+        res.status(204).end(); // No content to return after successful deletion
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ message: err.message });
+    }
+};
+
 module.exports = {
     createNewDemandeur,
     getAllDemandeurs,
     getDemandeur,
     updateDemandeur,
-    deleteDemandeur
+    deleteDemandeur,
+    deleteSelectedDemandeurs
 };

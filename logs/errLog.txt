@@ -14,3 +14,90 @@
 20240818	20:11:35	b3f215a6-a5df-46ea-ad4f-b580414bb078	Error: ENOENT: no such file or directory, stat 'C:\Users\msi\School Drive\OneDrive - Université Mohammed VI Polytechnique\Documents\MILITARY\For Chahbar\AliaeChah_proj\ticketingjs\public\virtual-reality.html'
 20240818	20:11:42	30053e61-8061-4dd9-993c-80deac702b11	Error: ENOENT: no such file or directory, stat 'C:\Users\msi\School Drive\OneDrive - Université Mohammed VI Polytechnique\Documents\MILITARY\For Chahbar\AliaeChah_proj\ticketingjs\public\virtual-reality.html'
 20240818	20:11:44	53b8b1a8-0e51-4c82-93e3-067ad36ec6a7	Error: ENOENT: no such file or directory, stat 'C:\Users\msi\School Drive\OneDrive - Université Mohammed VI Polytechnique\Documents\MILITARY\For Chahbar\AliaeChah_proj\ticketingjs\public\rtl.html'
+20240819	01:11:09	2c3e7ed2-6ace-4c65-9370-9574a5a4deab	Error: ENOENT: no such file or directory, stat 'C:\Users\dell\ticketing_js\views\tables.html'
+20240819	01:11:35	44f9ddad-5e91-483d-bebc-d543c37fb93b	Error: ENOENT: no such file or directory, stat 'C:\Users\dell\ticketing_js\views\tables.html'
+20240819	01:11:37	72acb9f5-11af-4529-80e7-da570f5f0573	Error: ENOENT: no such file or directory, stat 'C:\Users\dell\ticketing_js\views\tables.html'
+20240819	01:12:08	41a3c6bf-3762-4c8f-9bdd-6f86ec7a4c91	Error: ENOENT: no such file or directory, stat 'C:\Users\dell\ticketing_js\views\tables.html'
+20240819	01:12:10	b9646ae5-5a3a-446d-8bee-675cea30265e	Error: ENOENT: no such file or directory, stat 'C:\Users\dell\ticketing_js\views\tables.html'
+20240819	01:24:20	b3676900-6f28-4fe7-9e01-7bd055c762fe	Error: ENOENT: no such file or directory, stat 'C:\Users\dell\ticketing_js\views\tables.html'
+20240819	01:32:55	42e4ab6a-0585-4a3d-9873-722610d4faac	ReferenceError: C:\Users\dell\ticketing_js\views\tables.ejs:262
+    260|                   </thead>
+    261|                   <tbody>
+ >> 262|                     <% users.forEach(user => { %>
+    263|                     <tr>
+    264|                       <td>
+    265|                         <div class="d-flex px-2 py-1">
+
+users is not defined
+20240819	01:38:57	8bc67809-9e24-4553-8102-bf71e38793ee	ReferenceError: C:\Users\dell\ticketing_js\views\tables.ejs:262
+    260|                   </thead>
+    261|                   <tbody>
+ >> 262|                       <% users.forEach(user => { %>
+    263|                       <tr>
+    264|                           <td>
+    265|                               <div class="d-flex px-2 py-1">
+
+users is not defined
+20240819	01:38:59	514d5965-5002-4715-a356-e17f44b9ea33	ReferenceError: C:\Users\dell\ticketing_js\views\tables.ejs:262
+    260|                   </thead>
+    261|                   <tbody>
+ >> 262|                       <% users.forEach(user => { %>
+    263|                       <tr>
+    264|                           <td>
+    265|                               <div class="d-flex px-2 py-1">
+
+users is not defined
+20240819	01:43:02	1a54883b-e78d-4e91-8557-de4639fb6c46	ReferenceError: C:\Users\dell\ticketing_js\views\tables.ejs:262
+    260|                   </thead>
+    261|                   <tbody>
+ >> 262|                       <% if (users && users.length) { %>
+    263|                           <% users.forEach(user => { %>
+    264|                           <tr>
+    265|                               <td>
+
+users is not defined
+20240819	01:43:04	9b3f3557-7c54-4a19-9be0-7370e99090ce	ReferenceError: C:\Users\dell\ticketing_js\views\tables.ejs:262
+    260|                   </thead>
+    261|                   <tbody>
+ >> 262|                       <% if (users && users.length) { %>
+    263|                           <% users.forEach(user => { %>
+    264|                           <tr>
+    265|                               <td>
+
+users is not defined
+20240819	01:46:49	1d03d91e-4fac-428e-830d-33d80e5234ec	ReferenceError: C:\Users\dell\ticketing_js\views\tables.ejs:262
+    260|                   </thead>
+    261|                   <tbody>
+ >> 262|                       <% if (users && users.length) { %>
+    263|                           <% users.forEach(user => { %>
+    264|                           <tr>
+    265|                               <td>
+
+users is not defined
+20240819	01:46:50	d961a3e2-92a1-44c9-8426-76aabdda2ab7	ReferenceError: C:\Users\dell\ticketing_js\views\tables.ejs:262
+    260|                   </thead>
+    261|                   <tbody>
+ >> 262|                       <% if (users && users.length) { %>
+    263|                           <% users.forEach(user => { %>
+    264|                           <tr>
+    265|                               <td>
+
+users is not defined
+20240819	01:47:13	856dd104-dc4e-4fa8-8ef2-ac59b54e0cd4	ReferenceError: C:\Users\dell\ticketing_js\views\tables.ejs:262
+    260|                   </thead>
+    261|                   <tbody>
+ >> 262|                       <% if (users && users.length) { %>
+    263|                           <% users.forEach(user => { %>
+    264|                           <tr>
+    265|                               <td>
+
+users is not defined
+20240819	01:49:32	08ca7fdf-32fa-403f-a145-f36248621c24	ReferenceError: C:\Users\dell\ticketing_js\views\tables.ejs:262
+    260|                   </thead>
+    261|                   <tbody>
+ >> 262|                       <% if (users && users.length) { %>
+    263|                           <% users.forEach(user => { %>
+    264|                           <tr>
+    265|                               <td>
+
+users is not defined

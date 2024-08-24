@@ -1,27 +1,39 @@
+// In registerController.js
 const User = require('../model/User');
 const bcrypt = require('bcryptjs');
 
 const handleNewUser = async (req, res) => {
-    const { user, pwd } = req.body;
-    if (!user || !pwd) return res.status(400).json({ 'message': 'Username and password are required.' });
+    const { username, password, roles } = req.body;
 
-    
-    const duplicate = await User.findOne({ username: user }).exec();
-    if (duplicate) return res.sendStatus(409); 
+    if (!username || !password) {
+        return res.status(400).json({ 'message': 'Username and password are required.' });
+    }
 
     try {
-        
-        const hashedPwd = await bcrypt.hash(pwd, 10);
+        // Check for duplicate username
+        const duplicate = await User.findOne({ username }).exec();
+        if (duplicate) return res.sendStatus(409); // Conflict if user already exists
 
-        
-        const result = await User.create({
-            "username": user,
-            "password": hashedPwd
+        // Hash the password
+        const hashedPassword = await bcrypt.hash(password, 10);
+
+        // Set default roles if not provided
+        const userRoles = roles || {
+            User: 2001,
+            Editor: null,
+            Admin: null
+        };
+
+        // Create the new user
+        const newUser = await User.create({
+            username,
+            password: hashedPassword,
+            roles: userRoles
         });
 
-        console.log(result);
+        console.log(newUser);
 
-        res.status(201).json({ 'success': `New user ${user} created!` });
+        res.status(201).json({ 'success': `New user ${username} created!` });
     } catch (err) {
         res.status(500).json({ 'message': err.message });
     }
