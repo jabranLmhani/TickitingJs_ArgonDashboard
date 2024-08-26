@@ -101,3 +101,11 @@ users is not defined
     265|                               <td>
 
 users is not defined
+20240826	10:59:34	603561ff-cb23-4e39-91a5-87f92611e2c4	Error: No default engine was specified and no extension was provided.
+20240826	10:59:42	d166f0d5-6fdc-4a6d-baa4-11c82763a3d0	Error: No default engine was specified and no extension was provided.
+20240826	11:00:47	b19c721e-aae5-4eb6-b14e-b3ddc446d9d4	Error: No default engine was specified and no extension was provided.
+20240826	11:03:00	be0bec0e-79ad-4cde-9111-9e8d7d84372b	Error: No default engine was specified and no extension was provided.
+20240826	11:05:44	c8a701ee-60da-45ec-80cf-e29f0bf73f70	Error: Failed to lookup view "index" in views directory "C:\Users\msi\School Drive\OneDrive - Université Mohammed VI Polytechnique\Documents\MILITARY\For Chahbar\AliaeChah_proj\ticketingjs\views"
+20240826	11:08:34	20fee04e-b2f3-4059-84ba-e2bc34e87087	Error: Failed to lookup view "index" in views directory "C:\Users\msi\School Drive\OneDrive - Université Mohammed VI Polytechnique\Documents\MILITARY\For Chahbar\AliaeChah_proj\ticketingjs\views"
+20240826	11:08:36	bc1df50d-1322-490e-b405-90c1449ce1d1	Error: Failed to lookup view "index" in views directory "C:\Users\msi\School Drive\OneDrive - Université Mohammed VI Polytechnique\Documents\MILITARY\For Chahbar\AliaeChah_proj\ticketingjs\views"
+20240826	11:08:37	44828cf4-e4ca-4f29-8ecc-dc92c1409c5f	Error: Failed to lookup view "index" in views directory "C:\Users\msi\School Drive\OneDrive - Université Mohammed VI Polytechnique\Documents\MILITARY\For Chahbar\AliaeChah_proj\ticketingjs\views"

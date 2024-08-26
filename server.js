@@ -25,6 +25,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(cookieParser());
 
+
 // Serve static files from the public and views/css directories
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/css', express.static(path.join(__dirname, 'views', 'css')));
@@ -93,6 +94,10 @@ app.all('*', (req, res) => {
         res.type('txt').send("404 Not Found");
     }
 });
+
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
+
 
 // Error handling middleware
 app.use(errorHandler);

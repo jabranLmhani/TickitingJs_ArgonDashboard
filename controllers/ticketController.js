@@ -63,28 +63,47 @@ const createNewTicket = async (req, res) => {
     }
 };
 const updateTicket = async (req, res) => {
-    const { id, title, description, client, demandeur, utilisateur, status } = req.body; 
+    const { id, title, description, client, demandeur, utilisateur, status } = req.body;
     if (!id) return res.status(400).json({ 'message': 'ID parameter is required.' });
     try {
         const ticket = await Ticket.findById(id);
         if (!ticket) return res.status(404).json({ 'message': `No ticket matches ID ${id}.` });
+        
+        // Update ticket fields
         ticket.title = title;
         ticket.description = description;
         ticket.client = client;
         ticket.demandeur = demandeur;
         ticket.utilisateur = utilisateur;
-        ticket.status = status; 
+        ticket.status = status;
+
+        // Check if the status is being updated to 'resolu'
+        if (status === 'resolu') {
+            ticket.resolvedDate = new Date(); // Set resolvedDate on the ticket itself
+        }
+
         const result = await ticket.save();
-        await UserTicket.updateMany(
-            { ticketId: id },
-            { $set: { status: status } }
-        );
+
+        // Update UserTicket status and resolvedDate if the ticket status is 'resolu'
+        if (status === 'resolu') {
+            await UserTicket.updateMany(
+                { ticketId: id, status: 'en cours' },
+                { $set: { status: 'resolu', resolvedDate: new Date() } }
+            );
+        } else {
+            await UserTicket.updateMany(
+                { ticketId: id },
+                { $set: { status: status } }
+            );
+        }
+
         res.json(result);
     } catch (err) {
         console.error(err);
         res.status(500).json({ 'message': 'Server error' });
     }
 };
+
 const startWorkOnTicket = async (req, res) => {
     const { id } = req.params;
     if (!id) return res.status(400).json({ message: 'Ticket ID required.' });
@@ -109,21 +128,27 @@ const startWorkOnTicket = async (req, res) => {
 const completeTicketWork = async (req, res) => {
     const { id } = req.params;
     if (!id) return res.status(400).json({ message: 'Ticket ID required.' });
+
     try {
         const ticket = await Ticket.findById(id);
         if (!ticket) return res.status(404).json({ message: 'Ticket not found' });
+
         ticket.completeWork(); 
         await ticket.save();
+
+        // Update UserTicket documents associated with this ticket
         await UserTicket.updateMany(
             { ticketId: id, status: 'en cours' },
             { $set: { status: 'resolu', resolvedDate: new Date() } }
         );
+
         res.status(200).json(ticket);
     } catch (err) {
         console.error(err);
         res.status(500).json({ message: 'Server error' });
     }
 };
+
 
 
 
