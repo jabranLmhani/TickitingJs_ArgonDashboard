@@ -9,12 +9,12 @@ const UserTicket = require('./model/userTicket');
 
 const createTestTicket = async () => {
     try {
-        await connectDB(); // Ensure the database is connected
+        await connectDB(); 
 
-        // Create test data (replace IDs with actual existing IDs in your database)
-        const client = await Client.findOne(); // Or create a new client if necessary
-        const demandeur = await Demandeur.findOne(); // Or create a new demandeur
-        const user = await User.findOne(); // Or create a new user
+      
+        const client = await Client.findOne(); 
+        const demandeur = await Demandeur.findOne(); 
+        const user = await User.findOne(); 
 
         if (!client || !demandeur || !user) {
             console.log('Please make sure that client, demandeur, and user exist in the database.');
@@ -35,7 +35,7 @@ const createTestTicket = async () => {
 
         const savedTicket = await newTicket.save();
 
-        // Logic for creating UserTicket (since there's no utils.js)
+       
         const userTicket = new UserTicket({
             userId: user._id,
             ticketId: savedTicket._id,
